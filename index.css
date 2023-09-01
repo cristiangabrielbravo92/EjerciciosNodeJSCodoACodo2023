@@ -1,0 +1,19 @@
+.cajas {
+    display: grid;
+    grid-template-columns: repeat(2, 50px 1fr) 100px;
+    grid-gap: 5px;
+    box-sizing: border-box;
+    height: 200px;
+    width: 100%;
+    /* flex-wrap: wrap; */
+    gap: 10px 30px;
+}
+.caja {
+    height: 30px; 
+    width: 50px;
+    /* display: grid; */
+    background-color: crimson;
+    
+    border: 1px solid black;
+    flex-direction: column;
+}
